@@ -25,10 +25,12 @@ E-commerce site built with Create React App following Udemy Course: [Complete Re
       - menu-item.component.jsx
       - menu-item.styles.scss
 
-- App imports homepage.component
-  - homepage.component imports directory.component
-    - directory.component imports menu-item.component
+- App => homepage.component
+  - homepage.component  =>  directory.component
+    - directory.component  =>  menu-item.component
 
+### State
+directory.component.jsx
   
 ### Notes
 Destructuring used:
