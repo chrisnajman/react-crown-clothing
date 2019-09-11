@@ -33,10 +33,11 @@ E-commerce site built with Create React App following Udemy Course: [Complete Re
 directory.component.jsx
   
 ### Notes
-Destructuring used:
+Destructuring used for props:
 - directory.component.jsx:
-  `.map(({title, imageUrl, size, id, linkUrl})`
+  `.map(({title, imageUrl, size, id})`
 - menu-item.component.jsx:
   `MenuItem = ({title, imageUrl, size})`
+
 ---
 
