@@ -41,4 +41,14 @@ Destructuring used for props:
 
 ---
 
-## Routing
+## npm package conflicts
+If you get a warning message saying that one of the packages is the wrong version, note down the correct version then open package.json and add:
+
+```
+"resolutions": {
+  "package-name": "correct-package-version",
+  "lastName": "Smith",
+  "age": 25
+},
+```
+Then run `npm install`
