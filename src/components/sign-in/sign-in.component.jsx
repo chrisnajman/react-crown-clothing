@@ -58,12 +58,6 @@ class SignIn extends Component {
                     >
                         Sign in
                     </CustomButton>
-                    <CustomButton 
-                        type="submit" 
-                        value="Submit Form"
-                    >
-                        Sign in
-                    </CustomButton>
                 </form>
             </div>
         )
