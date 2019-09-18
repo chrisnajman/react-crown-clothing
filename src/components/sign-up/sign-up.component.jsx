@@ -69,7 +69,7 @@ class SignUp extends Component {
                     />
                     <FormInput 
                         type="email"
-                        id="email2"
+                        id="emailSignUp"
                         name="email"
                         label="Email"
                         value={email}
@@ -78,7 +78,7 @@ class SignUp extends Component {
                     />                    
                     <FormInput 
                         type="password"
-                        id="password"
+                        id="passwordSignUp"
                         name="password"
                         label="Password"
                         value={password}
