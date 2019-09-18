@@ -36,6 +36,7 @@ class SignIn extends Component {
                 <form onSubmit={this.handleSubmit}>
 
                     <FormInput 
+                        id="email"
                         type="email" 
                         name="email"
                         label="email"
