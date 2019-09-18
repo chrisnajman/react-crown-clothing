@@ -15,9 +15,17 @@ const config = {
 firebase.initializeApp(config)
 
 export const auth = firebase.auth()
+
 export const firestore = firebase.firestore()
 
 const provider = new firebase.auth.GoogleAuthProvider()
-export const signInWithGoogle = () => auth.signInWithPopup(provider).catch()
 
+export const signInWithGoogle = () => auth.signInWithPopup(provider).catch(()=>{})
+/*
+    .catch(()=>{})
+    This is appended to stop console error message when user clicks
+    'Sign in with Google' then immediately closes the Google popup
+    without signing in to a Google account.
+
+*/
 export default firebase
