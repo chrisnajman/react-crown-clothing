@@ -6,6 +6,8 @@ import { auth } from '../../firebase/firebase.utils'
 
 const Header = ({currentUser})=> {
     return(
+        <>
+        <h1>V1</h1>
         <div className="header">
             <Link to="/" className="logo-container">
                 <Logo className="logo" title="Link to Home page" />
@@ -33,6 +35,7 @@ const Header = ({currentUser})=> {
             
             </div>
         </div>
+        </>
     )
 }
 
